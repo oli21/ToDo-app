@@ -1,0 +1,33 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:0.5rem;
+}
+
+.todo .checkbox {
+  display: flex;
+}
+
+.todo i {
+  color: rgb(235, 100, 100);
+  cursor: pointer;
+}
+
+.todo i {
+  font-size: 1.5rem;
+}
+
+.todo .icon-done{
+    color:green;
+}
+
+.todo-text p{
+    font-size:1.25rem;
+    margin-left:0.25rem;
+    
+}
+
+.todo-text.done{
+    text-decoration: line-through;
+}

@@ -1,0 +1,34 @@
+.todoContainer{
+    width:inherit;
+    background:#e0e0df;
+    padding:1rem;
+    overflow:scroll;
+}
+
+.todoContainer .input{
+    width:80%;
+    margin:0 auto;
+    
+}
+
+.todoContainer .input .btn{
+    display:none;
+}
+
+.todoContainer .input input{ 
+    width:100%;
+    height:30px;
+    outline:none;
+    border:none;
+    padding-left:1rem;
+    border-radius:10px;
+    font-size:1rem;
+}
+
+.todoContainer .todoList{
+ 
+    width:80%;
+    margin:0 auto;
+    margin-left:3.5rem;
+    margin-top:1rem;
+}
