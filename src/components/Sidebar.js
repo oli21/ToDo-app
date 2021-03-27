@@ -25,12 +25,12 @@ function Sidebar() {
   const getWeather = async () => {
     try {
       const api_call = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${locationName}&appid=f896d39b7ccf7265b68fbdc2e9bec70c`
+        `https://api.openweathermap.org/data/2.5/weather?q=${locationName}&appid=f896d39b7ccf7265b68fbdc2e9bec70c`
       );
       const response = await api_call.json();
 
       setIcon(
-        `http://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png`
+        `https://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png`
       ); //setting the icon from icon embedded in the response of the api
 
       setWeatherDesc(response.weather[0].description); //setting the weather description
